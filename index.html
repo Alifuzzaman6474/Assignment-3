@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..    900& display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/75c143463b.js" crossorigin="anonymous"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+        }
+      }
+    }
+  }
+</script>
   </head>
   <body>
     <header>
@@ -19,40 +34,50 @@
               </ul>
             </div>
             <div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
                 <button class="border-1 border-green-500 rounded-sm px-3">Login</button>
                 <button class="text-white bg-green-500 rounded-sm px-4 py-1">Register</button>
             </div>
         </nav>
     </header>
     <main>
-        <h1 class="text-center"><b>Freshness <span class="text-green-500">You Can <br> Count</span> On, Prices You'll Love!</b></h1>
+        <h1 class="text-center text-5xl"><b>Freshness <span class="text-green-500">You Can <br> Count</span> On, Prices You'll Love!</b></h1>
         <p class="text-center">
           Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we've got you covered every day!
         </p>
-        <img src="Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
-        <h1 class="text-center"><b>Services</b></h1>
+        <div class="px-30">
+          <img src="Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+        </div>
+        <h1 class="text-center text-5xl"><b>Services</b></h1>
         <div class="flex justify-evenly items-center">
             <div class="bg-yellow-100 rounded-xl text-center py-5">
+              <div class="pl-25">
                 <img src="Assignment_03_Category_0002/c2-assets/service.png" alt="">
+              </div>
                 <h1><b>24/7 Services</b></h1>
                 <p>This is my <br>my third assignment I hope I will finish in time</p>
             </div>
             <div class="bg-yellow-100 rounded-xl text-center py-5">
-              <img src="Assignment_03_Category_0002/c2-assets/delivery.png" alt="">
+              <div class="pl-25">
+                <img src="Assignment_03_Category_0002/c2-assets/delivery.png" alt="">
+              </div>
               <h1><b>Fast Delivery</b></h1>
               <p>This is my <br>my third assignment I hope I will finish in time</p>
             </div>
             <div class="bg-yellow-100 rounded-xl text-center py-5">
-               <img src="Assignment_03_Category_0002/c2-assets/healthy.png" alt="">
+              <div class="pl-25">
+                <img src="Assignment_03_Category_0002/c2-assets/healthy.png" alt="">
+              </div>
                <h1><b>Healthy Products</b></h1>
                <p>This is my <br>my third assignment I hope I will finish in time</p>
             </div>
         </div>
         <section class="bg-yellow-100 my-9">
-            <h1 class="text-green-500 px-22"><b>Popular  Products</b></h1>
+            <h1 class="text-green-500 px-22 text-5xl"><b>Popular  Products</b></h1>
             <div class="grid grid-cols-5 grid-rows-3 gap-4 px-22 py-5">
-            <div class="bg-green-300 rounded-md flex row-span-3 col-span-2">
-              <div>
+            <div class="bg-gradient-to-b from-green-500 to-green-100 rounded-md flex row-span-3 col-span-2">
+              <div class="pl-6 pt-6">
                 <h1 class="text-white">UP to<b>30% OFF</b></h1>
                 <p>Discover a world of treats, toys, and essentials <br> handpicked for</p>
                 <button class=" rounded-md bg-white px-3 py-1">Buy Now</button>
@@ -64,80 +89,80 @@
             
             <div class="flex bg-white">
               <div>
-                this is a image 
+               <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/onion.jpg" alt="">
               </div>
               <div>
-                <p>4.5 <br> Onion 1KG <br> $39.99</p>
-              </div>
-            </div>
-            <div class="flex bg-white">
-              <div>
-                this is a image
-              </div>
-              <div>
-                <p>4.5 <br> Tomato 500 g <br> $39.99</p>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Onion 1KG <br> $39.99</p>
               </div>
             </div>
             <div class="flex bg-white">
               <div>
-                this is a image
+                <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/tomato.jpg" alt="">
               </div>
               <div>
-                <p>4.5 <br> Potato 1KG <br> $39.99</p>
-              </div>
-            </div>
-            <div class="flex bg-white">
-              <div>
-                this is a image 
-              </div>
-              <div>
-                <p>4.5 <br> Onion 1KG <br> $39.99</p>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Tomato 500 g <br> $39.99</p>
               </div>
             </div>
             <div class="flex bg-white">
               <div>
-                this is a image
+                <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/potato.jpg" alt="">
               </div>
               <div>
-                <p>4.5 <br> Tomato 500 g <br> $39.99</p>
-              </div>
-            </div>
-            <div class="flex bg-white">
-              <div>
-                this is a image
-              </div>
-              <div>
-                <p>4.5 <br> Potato 1KG <br> $39.99</p>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Potato 1KG <br> $39.99</p>
               </div>
             </div>
             <div class="flex bg-white">
               <div>
-                this is a image 
+                <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/potato.jpg" alt="">
               </div>
               <div>
-                <p>4.5 <br> Onion 1KG <br> $39.99</p>
-              </div>
-            </div>
-            <div class="flex bg-white">
-              <div>
-                this is a image
-              </div>
-              <div>
-                <p>4.5 <br> Tomato 500 g <br> $39.99</p>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Potato 1KG <br> $39.99</p>
               </div>
             </div>
             <div class="flex bg-white">
               <div>
-                this is a image
+                <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/onion.jpg" alt="">
               </div>
               <div>
-                <p>4.5 <br> Potato 1KG <br> $39.99</p>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Onion 1KG <br> $39.99</p>
+              </div>
+            </div>
+            <div class="flex bg-white">
+              <div>
+                <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/tomato.jpg" alt="">
+              </div>
+              <div>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Potato 1KG <br> $39.99</p>
+              </div>
+            </div>
+            <div class="flex bg-white">
+              <div>
+                <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/tomato.jpg" alt="">
+              </div>
+              <div>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Tomato 500 g <br> $39.99</p>
+              </div>
+            </div>
+            <div class="flex bg-white">
+              <div>
+                <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/potato.jpg" alt="">
+              </div>
+              <div>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Potato 1KG <br> $39.99</p>
+              </div>
+            </div>
+            <div class="flex bg-white">
+              <div>
+                <img style="height: 80px; width:80ox;" src="Assignment_03_Category_0002/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <p><i class="fa-solid fa-star text-amber-500"></i>4.5 <br> Onion 1KG <br> $39.99</p>
               </div>
             </div>
           </div>
         </section> 
-        <h1 class="text-green-500 pl-22"><b>Arrival & Offers</b></h1>
-        <section class="flex justify-evenly">
+        <h1 class="text-green-500 pl-22 text-5xl"><b>Arrival & Offers</b></h1>
+        <section class="flex justify-evenly m-5">
           <div class="flex bg-green-500 rounded-lg py-5">
             <div class="py-30 px-10">
               <img src="Assignment_03_Category_0002/c2-assets/dawat-logo.png" alt="">
@@ -159,20 +184,21 @@
             </div>
           </div>
         </section>
-        <section class="flex justify-evenly bg-yellow-100 rounded-2xl m-15">
-          <div>
-            <img src="Assignment_03_Category_0002/c2-assets/vegetable-busket.png" alt="">
-          </div>
-          <div class="py-30">
-            <h1><b>Get Grocery News!</b></h1>
-            <p>Exclusive training tips, ticks, product deals and more.</p>
-            <input type="email" placeholder="Enter your email" class="bg-white rounded-lg"> <br>
-            <button class="bg-green-500 rounded-md color-white-100 py-2 px-5 text-white">Subscribe</button>
-          </div>
-        </section>
     </main>
-    <footer class="bg-green-500 rounded-md">
-     <div class="flex justify-evenly">
+   
+    <footer class="bg-green-500 rounded-md mt-50">
+      <section class="flex justify-evenly bg-yellow-100 rounded-2xl m-15">
+        <div>
+          <img src="Assignment_03_Category_0002/c2-assets/vegetable-busket.png" alt="">
+        </div>
+        <div class="py-30">
+          <h1><b>Get Grocery News!</b></h1>
+          <p>Exclusive training tips, ticks, product deals and more.</p>
+          <input type="email" placeholder="Enter your email" class="bg-white rounded-lg"> <br>
+          <button class="bg-green-500 rounded-md color-white-100 py-2 px-5 text-white">Subscribe</button>
+        </div>
+      </section>
+     <div class="flex justify-evenly ">
         <div>
             <img src="Assignment_03_Category_0002/c2-assets/logo-footer.png" alt="">
             <p>This is my my third assignment <br> I hope I will finish in time</p>
